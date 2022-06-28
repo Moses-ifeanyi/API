@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/links/', include('links.urls')),
+    path('', include('links.urls')), #made this the home page instead of api/links/
 ]
